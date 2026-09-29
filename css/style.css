@@ -176,8 +176,8 @@ nav a{
   --header-logo-top: 50%;
   --header-logo-width: 210px;
   --header-nav-left: 270px;
-  --header-nav-right: 120px;
-  --header-nav-gap: 34px;
+  --header-nav-right: 0px;
+  --header-nav-gap: 20px;
 }
 
 /* Main header */
