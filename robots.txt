@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-User-agent: *
-Disallow: /*?s=
-
 Sitemap: https://eksankalp.xyz/sitemap.xml
