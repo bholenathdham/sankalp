@@ -1,0 +1,59 @@
+/* =========================================================
+   EK SANKALP — TERMS PAGE
+   Premium refinements layered over privacy-policy.css
+   ========================================================= */
+
+.terms-page .terms-hero h1 {
+  letter-spacing: -0.025em;
+}
+
+.terms-page .terms-promise {
+  background:
+    radial-gradient(circle at 12% 50%, rgba(155, 112, 47, 0.09), transparent 32%),
+    var(--paper2, #f2eadf);
+}
+
+.terms-page .terms-promise .promise-mark {
+  opacity: 0.88;
+}
+
+.terms-page .legal-section .inline-link {
+  color: var(--brown);
+  text-decoration: underline;
+  text-decoration-color: rgba(126, 88, 43, 0.35);
+  text-underline-offset: 4px;
+  transition: color .25s ease, text-decoration-color .25s ease;
+}
+
+.terms-page .legal-section .inline-link:hover {
+  color: var(--ink);
+  text-decoration-color: currentColor;
+}
+
+.terms-page .terms-list div {
+  align-items: flex-start;
+}
+
+.terms-page .terms-list span {
+  line-height: 1.7;
+}
+
+.terms-page .terms-closing {
+  background:
+    radial-gradient(circle at 50% 20%, rgba(190, 151, 84, 0.12), transparent 30%),
+    var(--brown, #4a3425);
+}
+
+@media (max-width: 700px) {
+  .terms-page .legal-hero-inner p {
+    max-width: 34rem;
+  }
+
+  .terms-page .terms-promise .promise-grid {
+    gap: 24px;
+  }
+
+  .terms-page .terms-list div {
+    text-align: left;
+  }
+}

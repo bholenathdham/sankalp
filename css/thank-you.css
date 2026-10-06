@@ -1,0 +1,19 @@
+.thanks-page{min-height:100vh;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#211914,#4a2e20 56%,#241714);color:#fff}
+.thanks-page:before{content:"";position:absolute;inset:0;opacity:.045;background-image:radial-gradient(circle,#fff 1px,transparent 1px);background-size:32px 32px}
+.thanks-orbit{position:absolute;width:650px;height:650px;border:1px solid rgba(230,180,92,.16);border-radius:50%;right:-300px;top:-280px;box-shadow:0 0 0 70px rgba(230,180,92,.025),0 0 0 140px rgba(230,180,92,.015)}
+.thanks-inner{position:relative;z-index:2;width:min(780px,calc(100% - 40px));text-align:center;padding:80px 0}
+.thanks-symbol{font-family:"Noto Serif Devanagari",serif;color:#d9ab7d;font-size:64px;line-height:1;margin-bottom:25px}
+.thanks-kicker{font-size:13px;letter-spacing:.16em;color:#e2b98e;text-transform:uppercase}
+.thanks-inner h1{font-size:clamp(45px,7vw,76px);line-height:1.12;letter-spacing:-.05em;margin:25px 0 25px}
+.thanks-inner h1 em{font-family:"Playfair Display",serif;font-weight:500;color:#f0cda9}
+.thanks-lead{font-size:21px;color:#f3e4d7;margin:0}
+.thanks-rule{height:1px;width:60px;background:#d49b6c;margin:35px auto}
+.thanks-inner>p:not(.thanks-lead):not(.thanks-quote){max-width:650px;margin:0 auto 18px;color:#d8c8bb;font-size:17px;line-height:1.95}
+.thanks-inner strong{color:#fff}
+.thanks-quote{font-family:"Playfair Display",serif;font-size:24px;line-height:1.55;color:#f0cda9;max-width:650px;margin:38px auto 0}
+.thanks-actions{display:flex;justify-content:center;align-items:center;gap:25px;flex-wrap:wrap;margin-top:42px}
+.thanks-actions a{text-decoration:none}
+.thanks-primary{background:#f1e0ce;color:#332219;padding:15px 24px;font-weight:700;font-size:15px}
+.thanks-primary span{margin-left:12px;font-size:20px}
+.thanks-secondary{color:#e5c8ad;border-bottom:1px solid #a8754f;padding-bottom:5px;font-size:14px}
+@media(max-width:650px){.thanks-inner{padding:60px 0}.thanks-inner h1{font-size:44px}.thanks-lead{font-size:18px}.thanks-inner>p:not(.thanks-lead):not(.thanks-quote){font-size:16px}.thanks-quote{font-size:21px}.thanks-actions{gap:18px}.thanks-primary{width:100%}}
