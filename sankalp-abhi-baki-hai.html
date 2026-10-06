@@ -82,6 +82,7 @@
 <a class="active" href="sankalp-abhi-baki-hai.html">आगे की यात्रा</a>
 <a href="15-february-2026.html">15 फरवरी 2026</a>
 <a href="about.html">विश्वास से संकल्प तक</a>
+<a href="contact.html">हमसे जुड़ें</a>
 </nav>
 <a class="dham-nav" href="https://bholenathdham.in/" rel="noopener" target="_blank">
 <span>भोलेनाथ धाम</span><b>↗</b>
@@ -299,85 +300,81 @@
 </main>
 
 <footer>
-<div class="wrap footer-main">
-<div class="footer-logo">
-<span>ॐ</span>
-<strong>एक संकल्प</strong>
-<small>एक विश्वास · एक यात्रा</small>
-</div>
-<div>
+  <div class="wrap footer-main">
+    <div class="footer-logo">
+      <span>ॐ</span>
+      <strong>एक संकल्प</strong>
+      <small>एक विश्वास · एक यात्रा</small>
+    </div>
+    <div>
       <h3>एक संकल्प</h3>
       <a href="index.html">मुख्य पृष्ठ</a>
       <a href="astha-ka-ek-sankalp.html">आस्था का एक संकल्प</a>
       <a href="sankalp-abhi-baki-hai.html">आगे की यात्रा</a>
       <a href="15-february-2026.html">15 फरवरी 2026</a>
       <a href="about.html">हमारे बारे में</a>
+      <a href="contact.html">हमसे जुड़ें</a>
     </div>
-
     <div>
       <h3>भोलेनाथ धाम</h3>
-      <a href="https://bholenathdham.in/" target="_blank" rel="noopener">
-        मुख्य वेबसाइट ↗
-      </a>
-      <a href="https://bholenathdham.in/media.html" target="_blank" rel="noopener">
-        मीडिया ↗
-      </a>
-      <a href="https://bholenathdham.in/seva.html" target="_blank" rel="noopener">
-        सेवा ↗
-      </a>
-      <a href="https://bholenathdham.in/shiva-purana/shiva-purana.html" target="_blank" rel="noopener">
-        शिव पुराण ↗
-      </a>
-      <a href="https://bholenathdham.in/explore/rama-shiva/index.html" target="_blank" rel="noopener">
-        राम और शिव का संबंध ↗
-      </a>
+      <a href="https://bholenathdham.in/" target="_blank" rel="noopener">मुख्य वेबसाइट ↗</a>
+      <a href="https://bholenathdham.in/media.html" target="_blank" rel="noopener">मीडिया ↗</a>
+      <a href="https://bholenathdham.in/seva.html" target="_blank" rel="noopener">सेवा ↗</a>
+      <a href="https://bholenathdham.in/media.html" target="_blank" rel="noopener">मीडिया गैलरी ↗</a>
+      <a href="https://bholenathdham.in/shiva-purana/shiva-purana.html" target="_blank" rel="noopener">शिव पुराण ↗</a>
+      <a href="https://bholenathdham.in/explore/rama-shiva/index.html" target="_blank" rel="noopener">राम और शिव का संबंध ↗</a>
     </div>
-</div>
-<div class="wrap footer-bottom">
-<span>ॐ नमः शिवाय</span>
-<span>© 2026 एक संकल्प</span>
+  </div>
+  <div class="wrap footer-bottom">
+  <span>ॐ नमः शिवाय</span>
+
+   <span>
+    <a href="privacy-policy.html">
+      गोपनीयता नीति 
+    </a>
+  </span> 
+
+  <span>
+    <a href="terms.html">
+      उपयोग की शर्तें 
+    </a>
+  </span> 
+
+  <span>
+    <a href="story-submission-guidelines.html">
+      दिशा-निर्देश
+    </a>
+  </span> 
+
+   <span class="footer-credit">
+    <a href="https://seoflares.info/" target="_blank" rel="noopener noreferrer">
+      वेबसाइट का डिज़ाइन, विकास एवं रखरखाव <strong>SEO Flares</strong> द्वारा किया जा रहा है।
+    </a>
+  </span>
+
+  <span>© 2026 एक संकल्प</span>  
 </div>
 </footer>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-
   const button = document.querySelector(".mobile-menu-toggle");
   const nav = document.querySelector(".site-header nav");
-
   if (!button || !nav) return;
-
   button.addEventListener("click", function () {
-
     const isOpen = nav.classList.toggle("mobile-open");
-
     button.classList.toggle("is-open", isOpen);
-
-    button.setAttribute(
-      "aria-expanded",
-      isOpen ? "true" : "false"
-    );
-
-    button.setAttribute(
-      "aria-label",
-      isOpen ? "Close navigation" : "Open navigation"
-    );
-
+    button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    button.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
   });
-
   nav.querySelectorAll("a").forEach(function (link) {
-
     link.addEventListener("click", function () {
-
       nav.classList.remove("mobile-open");
       button.classList.remove("is-open");
-
       button.setAttribute("aria-expanded", "false");
       button.setAttribute("aria-label", "Open navigation");
-
     });
-
   });
-
 });
 </script>
 </body>
